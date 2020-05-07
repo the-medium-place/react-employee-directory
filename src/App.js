@@ -12,7 +12,6 @@ class App extends Component {
         <div className="banner">
           <h1>Employee Manager</h1>
         </div>
-        <SearchForm />
         <ListContainer />
       </div>
     );
