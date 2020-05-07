@@ -1,25 +1,24 @@
 import React from 'react';
 import "./style.css";
-import ListTD from '../ListTD'
 
 export default function EmployeeCard(props) {
     return (
-        < tr >
-            <ListTD>
-                <img src={props.picURL} />
-            </ListTD>
-            <ListTD>
+        < tr key={props.id}>
+            <td>
+                <img alt="Thumbnail Pic" src={props.picURL} />
+            </td>
+            <td>
                 {`${props.firstName} ${props.lastName}`}
-            </ListTD>
-            <ListTD>
+            </td>
+            <td>
                 {props.email}
-            </ListTD>
-            <ListTD>
+            </td>
+            <td>
                 {`${props.city}, ${props.state}`}
-            </ListTD>
-            <ListTD>
+            </td>
+            <td>
                 {props.cell}
-            </ListTD>
+            </td>
         </tr >
 
     )

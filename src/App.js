@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ListContainer from './components/ListContainer';
+import SearchForm from './components/SearchForm'
 
 import './App.css';
 
@@ -11,6 +12,7 @@ class App extends Component {
         <div className="banner">
           <h1>Employee Manager</h1>
         </div>
+        <SearchForm />
         <ListContainer />
       </div>
     );
