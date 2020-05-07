@@ -8,6 +8,9 @@ class App extends Component {
 
     return (
       <div className="container">
+        <div className="banner">
+          <h1>Employee Manager</h1>
+        </div>
         <ListContainer />
       </div>
     );

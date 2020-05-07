@@ -21,26 +21,16 @@ export default class ListContainer extends React.Component {
 
         return (
             <div>
-                <table>
+                <table className="table-content">
                     <tr>
+                        <th></th>
                         <th>Name</th>
                         <th>Email</th>
-                        <th>Address</th>
+                        <th>City, State</th>
                         <th>Cell Number</th>
                     </tr>
-                   <tr>
+              
                     {this.state.employees.map(employee => <EmployeeCard firstName={employee.name.first} lastName={employee.name.last} city={employee.location.city} state={employee.location.state} email={employee.email} cell={employee.cell} picURL={employee.picture.thumbnail}/>)}
-                       
-                   </tr>
-                   
-                   
-                   
-                   
-                    
-                    
-
-               
-               
                 </table>
             </div>
         )

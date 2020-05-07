@@ -1,0 +1,19 @@
+.table-content {
+    width: 80%;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+tr {
+
+    border: 1px solid black;
+}
+
+th {
+    background: lightgray;
+}
