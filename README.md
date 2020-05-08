@@ -3,7 +3,7 @@
 ## Description: 
 This app loads a list of 200 randomized users in a table using React components.  The user is able to search the table and sort the results.  Simple javascript array methods are used to update the component state. 
 
-![screenshot](screenshot_img\screenshot.png)
+![screenshot](screenshot_img/screenshot.png)
 
 ## Usage: 
 Visit the deployed app [HERE](https://infinite-gorge-44449.herokuapp.com/)!
