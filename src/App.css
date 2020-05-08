@@ -1,8 +1,16 @@
-
-
 .banner {
   text-align: center;
   width: 100%;
-  font-size: 2em;
+  color: white;
+  background: rgb(54, 0, 54);
+  padding-left: none;
+  padding-right: none;
+
 }
+
+.banner h1 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
 
